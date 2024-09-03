@@ -1,0 +1,83 @@
+.side-bars{
+   position: fixed;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.inline-side-bar{
+    
+    position: fixed;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    width: 72px;
+    padding-top: 5px;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    height: 500px;
+}
+.bar-name{
+    padding-bottom: 35px;
+    
+}
+
+
+.home{
+    width: 24px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.home:hover{
+    width: 30px;
+}
+.explore{
+    width: 25px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.explore:hover{
+    width: 30px;
+}
+.subscriptions{
+    width: 25px;
+    padding-left: 17px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.subscriptions:hover{
+    width: 30px;
+}
+.originals{
+    width: 25px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.originals:hover{
+    width: 30px;
+    zoom: 1;
+}
+
+.music{
+    width: 25px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.music:hover{
+    width: 30px;
+}
+.library{
+    width: 25px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.library:hover{
+    width: 30px;
+}
